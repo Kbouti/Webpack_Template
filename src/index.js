@@ -1,7 +1,7 @@
 import _ from "lodash";
 import "./style.css";
-import Dice from "./dice.png";
-import { boardLogicReportToDom, boardLogicReportToConsole } from "./boardLogic";
+import Dice from "./images/dice.png";
+import { boardLogicReportToDom, boardLogicReportToConsole } from "./testFile1";
 
 
 function component() {
