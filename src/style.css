@@ -1,13 +1,5 @@
-@font-face {
-  font-family: "stardosStencil";
-  src: url('./StardosStencil-Regular.ttf') format('ttf'),
-  url('./StardosStencil-Bold.ttf') format('ttf');
-  font-weight: 600;
-  font-style: normal;
-}
 
 .hello {
   color: red;
   background: url("./dice.png");
-  font-family: "stardosStencil";
 }
