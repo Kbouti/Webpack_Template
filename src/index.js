@@ -3,9 +3,9 @@ import "./style.css";
 import Dice from "./dice.png";
 import { boardLogicReportToDom, boardLogicReportToConsole } from "./boardLogic";
 
+
 function component() {
   const element = document.createElement("div");
-  // Lodash, Now imported by this script
   element.innerHTML = _.join(["Hello", "webpack"], " ");
   element.classList.add(`hello`);
   const myIcon = new Image();
@@ -19,3 +19,8 @@ boardLogicReportToDom();
 boardLogicReportToConsole();
 
 // Fantastic wepack tutorial: https://www.youtube.com/watch?v=IZGNcSuwBZs
+
+// ************************************************************************************
+// npm run watch  (to begin watching project)
+// ^+C            (to quit)
+// ************************************************************************************
